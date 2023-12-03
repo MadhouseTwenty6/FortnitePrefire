@@ -15,7 +15,7 @@ while True:
     screen = pg.screenshot()
     current_color = screen.getpixel((X, Y))
 
-    if kb.is_pressed("F2"):
+    if kb.is_pressed("t"):
         print("F2 Clicked")
         initial_color = pg.pixel(X, Y)
 
